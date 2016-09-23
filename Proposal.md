@@ -1,10 +1,8 @@
 #MEMORANDUM
 
-### TO: ORIE 4741 staff
-
-### FROM: Yue Sun, Zhi Ting(Vincent) Chen, Yue Shi, En-Po(Eric) Tsai
-
-### DATE: Sept 22, 2016
+#### TO: ORIE 4741 staff
+#### FROM: Yue Sun, Zhi Ting(Vincent) Chen, Yue Shi, En-Po(Eric) Tsai
+#### DATE: Sept 22, 2016
 
 
 
