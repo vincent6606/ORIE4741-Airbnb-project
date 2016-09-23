@@ -14,9 +14,8 @@ The main collaborators are:
   Zhi Ting Chen(Vincent) : (zc346@cornell.edu)
 
 
-> **Note:**
+> ###**Note:**
   Data for this project can be found at:
-
   - Airbnb Data Set: (http://insideairbnb.com/get-the-data.html)
   - Zillow Data Set: (http://www.zillow.com/research/data/) 
   - Yelp Data Set: (https://www.yelp.com/dataset_challenge)
