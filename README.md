@@ -19,7 +19,7 @@ The main collaborators are:
 > ###**Note:** Data for this project can be found at:
   - Airbnb Data Set: (http://insideairbnb.com/get-the-data.html)
   - Zillow Data Set: (http://www.zillow.com/research/data/) 
-  - Yelp Data Set: (https://www.yelp.com/dataset_challenge)
+  - New York Crime data set: (http://www.nyc.gov/html/nypd/html/crime_prevention/crime_statistics.shtml)
 
 
 The full project proposal can be found in "Proposal.md"
