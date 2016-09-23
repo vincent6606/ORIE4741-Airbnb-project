@@ -11,6 +11,8 @@
 
   Data from each listing on Airbnb often contains the number of transactions per year, the price, and rating of guest, etc. In this project, we aim to to learn how listings in different areas of the same city(i.e. New York) have different prices, their correlation with house prices, crime rates, and their influence on the price of the listing. Specifically, we would like to answer the following question:
   
+##  What price is recommended for Airbnb host to maximize their profit?
+  
 ##Why is the problem important?
 Airbnb is one of the most successful online vacation property renting website. It provides renters a tool to contact with hosts and book rooms in the local family. However, there are many popular alternative websites, such as HomeAway. It is important for Airbnb to retain hosts, as they are the most valuable resources to the company.If Airbnb can give a host recommendation when he sets the listing price,  the company increases the probability of his room being rented. By improving hosts’ satisfactory, host loyalty is then built. 
 It is worthwhile to put time and investment into such kind of project, which helps improving host loyalty and the competitiveness of the company.
