@@ -40,6 +40,15 @@ After cleaning data, there are 28071 rows. There may be something less important
 There are 93 features and 28071 examples.
 
 ##5. A few Historgrams and descriptive statistics about the data.
+<p align="center">
+  <img src="Rplot.png" width="500">
+</p>
+<p align="center">
+<img src="price_room_type.png" width="500">
+</p>
+<p align="center">
+<img src="price_location.png" width="500">
+</p>
 
 The first density plot describes the relationship between price and location. From the histograms of different locations, we can see that location will influence the price density a lot. For example, the listing prices in Bronx, Queens and Staten Island gather at lower prices and prices in Brooklyn and Manhattan have higher variance. 
 Similar analysis can be applied on the density plot of price and room type.
@@ -62,11 +71,13 @@ Lastly, we have many features with boolean values which indicate the characteris
 
 At the first stage, we run the ridge regression with all transformed features by calling the built-in function of scikit learn. The ridge coefficients minimize a penalized residual sum of squares,
 
-
-
+<p align="center">
+  <img src="formula.png" width="250">
+</p>
 Here, we choose α equals to 0.5 to controls the amount of shrinkage. 
-
-
+<p align="center">
+<img src="regression.png" width="500">
+</p>
 
 This figure shows the performance of our model. X axis represents the actual test price and Y axis represents the predicted price. If predicting well, more plots should lay on the line. As shown in the figure, our model perform badly in predicting high prices, which causes large error.
 When observing the coefficient of w, we can figure out there are some of features having higher weights than others, for example accommodates, bathrooms, bedrooms, review_scores_location, Gym, Cable TV, Suitable for Events.
@@ -92,18 +103,3 @@ We also applied our model to other cities, to check how robust our model is when
 We have done some basic statistical analysis and drawn the plots of the relationship between transformed features and house price. In the next stage of our project, we plan to do some feature selection using some techniques like PCA and random forest in order to choose the features that are of great importance. After we cluster the data and find the principal factors, we use these features as the X and use house price as y and try different regression methods to fit our model. 
 On the other hand, most portion of text information we have not utilized to build our model. Therefore, we are going to extract the relevant features in order to improve the accuracy of our model.
 
-
-    <p align="center">
-      <img src="formula.png" width="250">
-    </p>
-    
-    <img src="Rplot.png" width="500"></center>
-    <center><img src="price_location.png" width="500"></center>
-    <center><img src="price_room_type.png" width="500"></center>
-    <center><img src="regression.png" width="500"></center>
-    
-    
-    <img src="Rplot.png" width="500">
-    <img src="price_location.png" width="500">
-    <img src="price_room_type.png" width="500">
-    <img src="regression.png" width="500">
