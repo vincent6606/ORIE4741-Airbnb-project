@@ -3,7 +3,7 @@
 ## ORIE 4741 Midterm Report
 
 
-# ORIE4741-Airbnb-project
+## ORIE4741-Airbnb-project
 ## A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell
 
 
@@ -53,15 +53,15 @@ There are 93 features and 28071 examples.
 The first density plot describes the relationship between price and location. From the histograms of different locations, we can see that location will influence the price density a lot. For example, the listing prices in Bronx, Queens and Staten Island gather at lower prices and prices in Brooklyn and Manhattan have higher variance. 
 Similar analysis can be applied on the density plot of price and room type.
 <p align="center">
-<img src="accommodates.png" width="500">
+<img src="accommodates.png" width="400">
 </p>
 
 <p align="center">
-<img src="bathrooms.png" width="500">
+<img src="bathrooms.png" width="400">
 </p>
 
 <p align="center">
-<img src="bedrooms.png" width="500">
+<img src="bedrooms.png" width="400">
 </p>
 
 
@@ -87,7 +87,7 @@ At the first stage, we run the ridge regression with all transformed features by
 </p>
 Here, we choose α equals to 0.5 to controls the amount of shrinkage. 
 <p align="center">
-<img src="regression.png" width="500">
+<img src="regression.png" width="400">
 </p>
 
 This figure shows the performance of our model. X axis represents the actual test price and Y axis represents the predicted price. If predicting well, more plots should lay on the line. As shown in the figure, our model perform badly in predicting high prices, which causes large error.
