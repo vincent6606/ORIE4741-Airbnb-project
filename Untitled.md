@@ -53,11 +53,10 @@ $$
 \end{align}
 $$
 
-![Alt text](/Rplot.png)
 
-![Alt text](/price_location.png)
-![Alt text](/price_room_type.png)
-![Alt text](/regression.png)
 
-<img src="regression.png" width="200">
-ff
+<img src="Rplot.png" width="500">
+<img src="price_location.png" width="500">
+<img src="price_room_type" width="500">
+<img src="regression.png" width="500">
+
