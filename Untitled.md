@@ -53,27 +53,7 @@ $$
 \end{align}
 $$
 
-![]()
-
-
-    from IPython.display import Image
-    Image(filename='Rplot.png')
-
-
-
-
-![png](output_13_0.png)
-
-
-
-
-    Image(filename='price_location.png')
-
-
-
-
-![png](output_14_0.png)
-
+![Alt text](/Rplot.png)
 
 
 
