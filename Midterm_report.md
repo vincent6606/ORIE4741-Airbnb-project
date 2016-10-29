@@ -57,7 +57,9 @@ Similar analysis can be applied on the density plot of price and room type.
 </p>
 
 <p align="center">
+<img src="accommodates.png" width="400">
 <img src="bathrooms.png" width="400">
+<img src="bedrooms.png" width="400">
 </p>
 
 <p align="center">
