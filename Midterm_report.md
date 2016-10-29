@@ -42,9 +42,9 @@ There are 93 features and 28071 examples.
 ##5. A few Historgrams and descriptive statistics about the data.
 
 <p align="center">
-  <img src="Rplot.png" width="300">
-  <img src="price_room_type.png" width="300">
-  <img src="price_location.png" width="300">
+  <img src="Rplot.png" width="320">
+  <img src="price_room_type.png" width="320">
+  <img src="price_location.png" width="320">
 </p>
 
 
@@ -53,9 +53,9 @@ Similar analysis can be applied on the density plot of price and room type.
 
 
 <p align="center">
-<img src="accommodates.png" width="300">
-<img src="bathrooms.png" width="300">
-<img src="bedrooms.png" width="300">
+<img src="accommodates.png" width="320">
+<img src="bathrooms.png" width="320">
+<img src="bedrooms.png" width="320">
 </p>
 
 
@@ -64,9 +64,7 @@ These three boxplots describe the relationship between price and house space. Mo
 
 ##6. Describing how we chose which features (and transformations) to use.
 
-
 To build our first regression model, we want to keep as many features as we have. We use all the features are numerical, these features includes the price, the number of accommodation, the time duration, the percentage of the host response rate, the listing acceptance rate, and the review scores. 
-
 
 Besides, large portion of our data is composed of text describing the listing. The content of the text includes the space, the amenities, the neighborhood overview, the transportation, the house rule, or any information the host writes on the listing. To transform these text into numerical values, we extract the useful information by searching for key keywords which might be relevant to the listing. We then construct the dummy variables for each of these keywords. We end up with having dummy variables of three room types (entire home/apt, private room, and shared room), five bed types (Real Bed, Pull-out Sofa, Couch, etc.), six strictnesses of cancellation cancellation policies, forty-one amenities(TV, Internet, Air Conditioning, etc.), and three house rules(pets allowed, smoking allowed, and suitable for events, etc.) 
 
