@@ -52,19 +52,14 @@ There are 93 features and 28071 examples.
 
 The first density plot describes the relationship between price and location. From the histograms of different locations, we can see that location will influence the price density a lot. For example, the listing prices in Bronx, Queens and Staten Island gather at lower prices and prices in Brooklyn and Manhattan have higher variance. 
 Similar analysis can be applied on the density plot of price and room type.
-<p align="center">
-<img src="accommodates.png" width="400">
-</p>
+
 
 <p align="center">
-<img src="accommodates.png" width="400">
-<img src="bathrooms.png" width="400">
-<img src="bedrooms.png" width="400">
+<img src="accommodates.png" width="250">
+<img src="bathrooms.png" width="250">
+<img src="bedrooms.png" width="250">
 </p>
 
-<p align="center">
-<img src="bedrooms.png" width="400">
-</p>
 
 
 These three boxplots describe the relationship between price and house space. More accommodates, bedrooms, and bathrooms available, the mean listing price will be higher. 
