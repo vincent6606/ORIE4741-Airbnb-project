@@ -10,13 +10,10 @@
 The main collaborators are: 
 
 
-  Yue Sun : (ys758@cornell.edu) 
-  
-  Zhi Ting Chen(Vincent) : (zc346@cornell.edu)
-  
-  Po-En Tsai: (pt369@cornell.edu)
-  
-  Yue Shi : (ys764@cornell.edu)
+ Yue Sun : (ys758@cornell.edu) 
+ Zhi Ting Chen(Vincent) : (zc346@cornell.edu)
+ Po-En Tsai: (pt369@cornell.edu)
+ Yue Shi : (ys764@cornell.edu)
   
 
 
