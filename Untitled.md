@@ -52,8 +52,10 @@ $$
 \min\limits_{\omega} {||{X}^Tw-y||_2}^2+\lambda{||w||_2}^2
 \end{align}
 $$
+<p align="center">
+  <center><img src="formula.png" width="100"></center>
+</p>
 
-<center><img src="formula.png" width="500"></center>
 <center>
 <img src="Rplot.png" width="500"></center>
 <center><img src="price_location.png" width="500"></center>
