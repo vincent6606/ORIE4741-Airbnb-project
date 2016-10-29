@@ -42,9 +42,9 @@ There are 93 features and 28071 examples.
 ##5. A few Historgrams and descriptive statistics about the data.
 
 <p align="center">
-  <img src="Rplot.png" width="280">
-  <img src="price_room_type.png" width="280">
-  <img src="price_location.png" width="280">
+  <img src="Rplot.png" width="300">
+  <img src="price_room_type.png" width="300">
+  <img src="price_location.png" width="300">
 </p>
 
 
@@ -53,9 +53,9 @@ Similar analysis can be applied on the density plot of price and room type.
 
 
 <p align="center">
-<img src="accommodates.png" width="250">
-<img src="bathrooms.png" width="250">
-<img src="bedrooms.png" width="250">
+<img src="accommodates.png" width="300">
+<img src="bathrooms.png" width="300">
+<img src="bedrooms.png" width="300">
 </p>
 
 
