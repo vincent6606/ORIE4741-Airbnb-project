@@ -59,4 +59,5 @@ $$
 ![Alt text](/price_room_type.png)
 ![Alt text](/regression.png)
 
-    
+<img src="regression.png" width="200">
+ff
