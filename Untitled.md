@@ -47,16 +47,11 @@ We also applied our model to other cities, to check how robust our model is when
 The first density plot describes the relationship between price and location. From the histograms of different locations, we can see that location will influence the price density a lot. For example, the listing prices in Bronx, Queens and Staten Island gather at lower prices and prices in Brooklyn and Manhattan have higher variance. 
 Similar analysis can be applied on the density plot of price and room type.
 
-$$
-\begin{align}
-\min\limits_{\omega} {||{X}^Tw-y||_2}^2+\lambda{||w||_2}^2
-\end{align}
-$$
+
 <p align="center">
-  <center><img src="formula.png" width="100"></center>
+  <img src="formula.png" width="250">
 </p>
 
-<center>
 <img src="Rplot.png" width="500"></center>
 <center><img src="price_location.png" width="500"></center>
 <center><img src="price_room_type.png" width="500"></center>
