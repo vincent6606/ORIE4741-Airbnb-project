@@ -1,6 +1,6 @@
 
 
-## ORIE 4741 Midterm Report
+# ORIE 4741 Midterm Report
 
 
 ## ORIE4741-Airbnb-project
