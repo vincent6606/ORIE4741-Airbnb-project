@@ -55,6 +55,8 @@ $$
 
 ![Alt text](/Rplot.png)
 
-
+![Alt text](/price_location.png)
+![Alt text](/price_room_type.png)
+![Alt text](/regression.png)
 
     
