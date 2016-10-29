@@ -53,6 +53,12 @@ $$
 \end{align}
 $$
 
+<center><img src="formula.png" width="500"></center>
+<center>
+<img src="Rplot.png" width="500"></center>
+<center><img src="price_location.png" width="500"></center>
+<center><img src="price_room_type.png" width="500"></center>
+<center><img src="regression.png" width="500"></center>
 
 
 <img src="Rplot.png" width="500">
