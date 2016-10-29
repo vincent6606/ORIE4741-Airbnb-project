@@ -57,6 +57,6 @@ $$
 
 <img src="Rplot.png" width="500">
 <img src="price_location.png" width="500">
-<img src="price_room_type" width="500">
+<img src="price_room_type.png" width="500">
 <img src="regression.png" width="500">
 
