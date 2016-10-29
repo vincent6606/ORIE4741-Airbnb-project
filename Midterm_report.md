@@ -40,15 +40,13 @@ After cleaning data, there are 28071 rows. There may be something less important
 There are 93 features and 28071 examples.
 
 ##5. A few Historgrams and descriptive statistics about the data.
+
 <p align="center">
-  <img src="Rplot.png" width="500">
+  <img src="Rplot.png" width="280">
+  <img src="price_room_type.png" width="280">
+  <img src="price_location.png" width="280">
 </p>
-<p align="center">
-<img src="price_room_type.png" width="500">
-</p>
-<p align="center">
-<img src="price_location.png" width="500">
-</p>
+
 
 The first density plot describes the relationship between price and location. From the histograms of different locations, we can see that location will influence the price density a lot. For example, the listing prices in Bronx, Queens and Staten Island gather at lower prices and prices in Brooklyn and Manhattan have higher variance. 
 Similar analysis can be applied on the density plot of price and room type.
@@ -84,7 +82,7 @@ At the first stage, we run the ridge regression with all transformed features by
 </p>
 Here, we choose α equals to 0.5 to controls the amount of shrinkage. 
 <p align="center">
-<img src="regression.png" width="400">
+<img src="regression.png" width="300">
 </p>
 
 This figure shows the performance of our model. X axis represents the actual test price and Y axis represents the predicted price. If predicting well, more plots should lay on the line. As shown in the figure, our model perform badly in predicting high prices, which causes large error.
