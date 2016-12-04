@@ -26,4 +26,4 @@ The full project proposal can be found in "Proposal.md"
 
 Thanks for reading!
 
-$X^{yas}$
+$$X^{yas}$$
