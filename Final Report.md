@@ -57,6 +57,5 @@ There are 92 features in our Airbnb data, we want to get an intuitive sense of w
 </p>
 
 <p align="center">
-<img src="Pictures/3.png" width="300">
-<h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
+<img src="Pictures/3.png" width="500">
 </p>
