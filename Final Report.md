@@ -15,7 +15,6 @@ As more homeowners put their properties on the platform, Airbnb is able to sugge
 </p>
 
 
-
 ### Goal and Assumption
 <p>The goal of the predictive models is clear - input the listing features X to the model, output the listing price y. However, we do not want to predict all listing prices y. We only want to to predict the price y which is reasonable and acceptable to the guest, so our model can provide the reliable price recommendation to the hosts. </p>
 
