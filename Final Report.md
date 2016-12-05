@@ -46,8 +46,8 @@ Lastly, we have many features with boolean values which indicate the characteris
 </p>
 
 <p align="center">
-<img src="Pictures/1.png" width="450">
-<img src="Pictures/2.png" width="450">
+<img src="Pictures/1.png" width="430">
+<img src="Pictures/2.png" width="430">
 </p>
 
 
@@ -57,6 +57,6 @@ There are 92 features in our Airbnb data, we want to get an intuitive sense of w
 </p>
 
 <p align="center">
-<img src="Pictures/3.png" width="450">
+<img src="Pictures/3.png" width="430">
 <h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
 </p>
