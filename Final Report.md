@@ -161,6 +161,9 @@ We can also use the proximal gradient method to find the optimal weight value th
 
 <h3>Would you be willing to use them in production to change how your company or enterprise makes decisions? If not, why not?</h3>
 
+<p>
+After comparing the error value among three models, the second model has the lowest error value. To know how the third model help making decisions, we further calculate the percentage of the error value by dividing the error value by the predictive price. The figure below shows that our model is feasible for the predictive price larger than 100USD, with 90% confidence on a 40% error. For the predictive price less than 100USD, our model underpredicts the price easily. In conclusion, our model can provide the Airbnb hosts preice recommendation if the it is more than 100 USD.</p>
+
 <p align="center">
 <img src="Pictures/13.png" width="410">
 </p>
