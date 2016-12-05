@@ -91,7 +91,7 @@ We are separating data points based on their error between the predicted prices 
 
 ## Linear Regression on the Valid Data
 
-<p>Then, we redo the linear regression on the valid data(listings within the bounded region), which means our final model only focuses on normal listings. Using  linear regression followed by a k-fold cross validation, we got the coefficient of each feature and found the best lambda. The two figures below show that this second linear regression model results in good prediction on the training set.
+<p>Then, we redo the linear regression on the valid data(listings within the bounded region), which means our final model only focuses on normal listings. Using linear regression followed by a k-fold cross validation, we got the coefficient of each feature and found the best lambda. The left figure shows the variance score of models with different lambda. The blue region means 95% confidence interval of the variance score. Variance score is the value between 0 and 1, which is 1 when the prediction exactly match the true price. The right figure shows that the updated linear regression model results in good prediction on the training set. 
 </p>
 <p align="center">
 <img src="Pictures/5.png" width="430">
