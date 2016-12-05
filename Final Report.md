@@ -94,12 +94,12 @@ We are separating data points based on their error between the predicted prices 
 <p>Then, we redo the linear regression on the valid data(listings within the bounded region), which means our final model only focuses on normal listings. Using  linear regression followed by a k-fold cross validation, we got the coefficient of each feature and found the best lambda. The two figures below show that this second linear regression model results in good prediction on the training set.
 </p>
 <p align="center">
-<img src="Pictures/6.png" width="430">
+<img src="Pictures/5.png" width="430">
 </p>
 
 </p>
 <p align="center">
-<img src="Pictures/7.png" width="430">
+<img src="Pictures/6.png" width="430">
 </p>
 
 
