@@ -41,7 +41,7 @@ Lastly, we have many features with boolean values which indicate the characteris
 </p>
 
 
-## Linear Regression
+## First Model: Linear Regression
 <p>To begin, we build a linear model by applying ordinary least square regression on the listing data set X to predict the listing price y. Unfortunately, the linear models do not perform well. Figure 1 shows that the model underpredict the price when the true price is high. We can see the error distribution is skewed to positive direction in figure 2, which means that we have more predictions with positive error than with negative error. 
 </p>
 
@@ -50,7 +50,7 @@ Lastly, we have many features with boolean values which indicate the characteris
 <img src="Pictures/2.png" width="430">
 </p>
 
-## Random forest
+## Find Important Features: Random forest
 <p>
 There are 92 features in our Airbnb data, we want to get an intuitive sense of what the most important features are, in contributing to the pricing difference among houses. Random forest is a very essential tool to help us look into the importance of these features. 
 </p>
@@ -86,7 +86,7 @@ We are separating data points based on their error between the predicted prices 
 <p>We then build a classification model using logistic regression, in order to classify a listings as valid data or outliers. Using this classification model, we will only apply the linear models to the listings which are classified as valid data.</p>
 
 
-## Linear Regression on the Valid Data
+## Second Model: Linear Regression on the Valid Data
 
 <p>Then, we redo the linear regression on the valid data(listings within the bounded region), which means our final model only focuses on normal listings. Using linear regression followed by a k-fold cross validation, we got the coefficient of each feature and found the best lambda. The left figure shows the variance score of models with different lambda. The blue region means 95% confidence interval of the variance score. Variance score is the value between 0 and 1, which is 1 when the prediction exactly match the true price. The right figure shows that the updated linear regression model results in good prediction on the training set. 
 </p>
