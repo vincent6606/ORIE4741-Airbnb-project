@@ -75,8 +75,8 @@ After getting the result of the random forest, we reduced the dimension of featu
 <p>
 Using quadratic loss function with one norm regularizer, our linear model can learn the weight of different features, under less influence of outliers. Scikit-learn provides this function for us. To get the best fitting lambda, we ran k-fold cross validation with k=5. </p>   
 
-
 ## Outlier Classification
+
 <p>
 To overcome the underfitting problem mentioned above, we decided to build a classifier to indicate whether our model will predict the price well or not. Our model tends to underpredict the listings with higher prices, and overpredict the listings with lower prices. It is hard to predict those listings because they might have some unique characteristics which we do not extract from our dataset, such as text description or image.  Therefore, we want to ignore those listings with large negative or positive error,  and we regard them  as outliers. </p>
 <p>
@@ -122,7 +122,6 @@ Based on the results we got from the linear regression model, features such as r
 Then apply this model onto test set. To see the prediction on the test set, we first classify the test set and get the result of 4392 valid data out of 5241 data points, which means that near 90% data in the test set is regarded as valid. Even though we  the classification process filters out the outlier and thus narrowed down our project scope, we were still predicting listing price for majority hosts. 
 Then, we only apply the linear model on those 4392 valid data points. As the result shown in the two figures below, we still cannot predict the test set well. Then we face a problem of overfitting.
 </p>
-$$I = \int \rho R^{2} dV$$
 
 
 
