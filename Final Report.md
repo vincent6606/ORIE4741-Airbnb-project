@@ -163,9 +163,9 @@ We can also use the proximal gradient method to find the optimal weight value th
 
 ## Conclusion
 
-### Would you be willing to use them in production to change how your company or enterprise makes decisions? If not, why not?
+<h3>Would you be willing to use them in production to change how your company or enterprise makes decisions? If not, why not?</h3>
 
 <p align="center">
-<img src="Pictures/18.png" width="410">
+<img src="Pictures/13.png" width="410">
 </p>
 
