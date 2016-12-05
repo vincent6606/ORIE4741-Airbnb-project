@@ -97,7 +97,7 @@ We are separating data points based on their error between the predicted prices 
 
 </p>
 <p align="center">
-<img src="Pictures/7.png" width="900">
+<img src="Pictures/7.png" width="700">
 </p>
 
 <p>
@@ -128,7 +128,7 @@ Therefore, we decide to see how seriously the predictive price biased from the t
 The left figure above shows that the most common Airbnb listing prices of New York City are among between 50 to 200 USD. The right figure above shows that in this range, the median error of model was near -5 USD. For the worst case, the absolute value of error could be 45 USD, which was less than 40% of the predicted price. In short, we have 90% confidence that the error will be less than 40% of the predictive price. </p>
 
 
-## Third Model: Attribute Weighted Nearest Neighbor Algorithm
+<h2>Third Model: Attribute Weighted Nearest Neighbor Algorithm</h2>
 <p>
 Another way to predict the price of a listing is to select the similar listings from the pool of sampled data, build the predictive model based on only those similar listings instead of on the whole training data set. Therefore, we develop a method to compare the features of a listing to other listings in the data set. Before calculating the similarity between two listings, we have to assign the weight values to each features.
 </p>
@@ -165,6 +165,6 @@ We can also use the proximal gradient method to find the optimal weight value th
 After comparing the error value among three models, the second model has the lowest error value. To know how the third model help making decisions, we further calculate the percentage of the error value by dividing the error value by the predictive price. The figure below shows that our model is feasible for the predictive price larger than 100USD, with 90% confidence on a 40% error. For the predictive price less than 100USD, our model underpredicts the price easily. In conclusion, our model can provide the Airbnb hosts preice recommendation if the it is more than 100 USD.</p>
 
 <p align="center">
-<img src="Pictures/13.png" width="410">
+<img src="Pictures/13.png" width="610">
 </p>
 
