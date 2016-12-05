@@ -1,7 +1,13 @@
 
-## ORIE4741-Airbnb-project
-## A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell
+##
+##  
+<p align="center">
+  <h3>ORIE4741-Airbnb-project</h3>
+</p>
 
+<p align="center">
+<h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
+</p>
 
 ## Introduction
 <h3>Introduction</h3>
