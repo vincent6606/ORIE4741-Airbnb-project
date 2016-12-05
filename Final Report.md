@@ -99,19 +99,10 @@ We are separating data points based on their error between the predicted prices 
 <img src="Pictures/6.png" width="450">
 </p>
 
-
-
-
 </p>
 <p align="center">
 <img src="Pictures/7.png" width="600">
 </p>
-
-
-
-
-
-
 
 <p>
 Based on the results we got from the linear regression model, features such as room type, number of bathrooms, availability and number of guests included have a positive impact on the listing price, which means meeting tourists requirements in these fields helps a lot if hosts want to earn more. Other features such as fee for extra people and setting minimum number of nights will lower the probability of setting a welcomed high price.
@@ -119,8 +110,11 @@ Then apply this model onto test set. To see the prediction on the test set, we f
 Then, we only apply the linear model on those 4392 valid data points. As the result shown in the two figures below, we still cannot predict the test set well. Then we face a problem of overfitting.
 </p>
 
-
-
+</p>
+<p align="center">
+<img src="Pictures/8.png" width="400">
+<img src="Pictures/9.png" width="450">
+</p>
 
 
 
