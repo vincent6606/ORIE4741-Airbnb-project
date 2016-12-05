@@ -1,6 +1,6 @@
 
 <p align="center">
-  <h3>ORIE4741-Airbnb-project</h3>
+  <b><h3>ORIE4741-Airbnb-project</h3></b>
 </p>
 
 <p align="center">
