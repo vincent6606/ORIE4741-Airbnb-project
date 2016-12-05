@@ -83,7 +83,7 @@ We are separating data points based on their error between the predicted prices 
 </p>
 
 <p align="center">
-<img src="Pictures/5.png" width="430">
+<img src="Pictures/4.png" width="430">
 </p>
 
 <p>We then build a classification model using logistic regression, in order to classify a listings as valid data or outliers. Using this classification model, we will only apply the linear models to the listings which are classified as valid data.</p>
