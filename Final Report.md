@@ -1,7 +1,7 @@
 
-<p align="center">
-  <b><title>ORIE4741 Airbnb project</title></b>
-</p>
+
+<b><title>ORIE4741 Airbnb project</title></b>
+
 
 <p align="center">
 <img src="Pictures/air.png" width="1000">
