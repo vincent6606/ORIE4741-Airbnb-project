@@ -134,7 +134,7 @@ Another way to predict the price of a listing is to select the similar listings 
 </p>
 <p>
 attribute weighting assesses the importance of each attribute with respect to the output, we assign different weights to different features and thus calculate the Euclidian distance of each feature. </p>
-<p align="center">
+<p>
 <img src="Pictures/18.png" width="700">
 </p>
 <p>
