@@ -149,3 +149,12 @@ We compare the mean and variance of the error under different filtering rules. W
 <img src="Pictures/15.png" width="410">
 <img src="Pictures/16.png" width="410">
 </p>
+
+<p>
+We can give the following confidence interval, conditions that house price is extremely low will not exist:
+</p>
+
+
+<p align="center">
+<img src="Pictures/17.png" width="410">
+</p>
