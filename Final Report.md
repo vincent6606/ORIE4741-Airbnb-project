@@ -112,8 +112,8 @@ Then, we only apply the linear model on those 4392 valid data points. As the res
 
 </p>
 <p align="center">
-<img src="Pictures/8.png" width="400">
-<img src="Pictures/9.png" width="450">
+<img src="Pictures/8.png" width="430">
+<img src="Pictures/9.png" width="430">
 </p>
 
 
