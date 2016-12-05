@@ -125,7 +125,7 @@ Therefore, we decide to see how seriously the predictive price biased from the t
 
 <p align="center">
 <img src="Pictures/10.png" width="410">
-<img src="Pictures/11.png" width="440">
+<img src="Pictures/12.png" width="440">
 </p>
 
 <p>
