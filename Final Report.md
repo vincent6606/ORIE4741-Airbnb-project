@@ -161,7 +161,7 @@ We can give the following confidence interval, conditions that house price is ex
 <p>
 We can also use the proximal gradient method to find the optimal weight value that minimizes the sum of the error. This is what we are going to explore if time permits. </p>
 
-## Conclusion
+<h2>Conclusion</h2>
 
 <h3>Would you be willing to use them in production to change how your company or enterprise makes decisions? If not, why not?</h3>
 
