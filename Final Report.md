@@ -2,7 +2,7 @@
 <p align="center">
   <b><title>ORIE4741-Airbnb-project</title></b>
 </p>
-<center> <h1>ORIE4741-Airbnb-project</h1> </center>
+
 <p align="center">
 <h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
 </p>
