@@ -82,9 +82,11 @@ To overcome the underfitting problem mentioned above, we decided to build a clas
 We are separating data points based on their error between the predicted prices and the actual. The graph below shows a histogram of errors divided into two parts; points inside the region bounded by the two lines are within 30 dollars of the actual price and are clustered into the “+1” category. Listings outside the region are labeled “-1”, since their errors are more than 30 dollars.
 </p>
 
-<p>We then build a classification model using logistic regression, in order to classify a listings as valid data or outliers. Using this classification model, we will only apply the linear models to the listings which are classified as valid data.</p>
-
 
 <p align="center">
 <img src="Pictures/4.png" width="430">
 </p>
+
+<p>We then build a classification model using logistic regression, in order to classify a listings as valid data or outliers. Using this classification model, we will only apply the linear models to the listings which are classified as valid data.</p>
+
+
