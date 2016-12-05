@@ -116,9 +116,17 @@ Then, we only apply the linear model on those 4392 valid data points. As the res
 <img src="Pictures/9.png" width="440">
 </p>
 
+## The Confidence of our Model
 
 
+<p>After building our models, knowing how to assess the result of a model is very important. The following is the way we assess how well a model predicts the price of Airbnb listing. By this way, we are able to compare the performance between the models. Since our ultimate goal is to recommend a price to the hoster, a good model should provide the prediction small error. On the other hand, a 30USD error is not significant for a 200USD price recommendation, but 30 USD might be a very significant error for a 80USD price recommendation. </p>
+<p>
+Therefore, we decide to see how seriously the predictive price biased from the true price by comparing the errors among the listings with the same predictive price. As the right figure below shows, for example, in the case of the listings with 200USD predictive price, the 5% quantile error is -70USD, the 95% quantile error is 50USD. As a result, given a 200USD price recommendation, we have 90% confidence that the true price will lie in the price interval of [130, 250] USD.</p>
 
+<p align="center">
+<img src="Pictures/10.png" width="410">
+<img src="Pictures/11.png" width="440">
+</p>
 
-
-
+<p>
+The left figure above shows that the most common Airbnb listing prices of New York City are among between 50 to 200 USD. The right figure above shows that in this range, the median error of model was near -5 USD. For the worst case, the absolute value of error could be 45 USD, which was less than 40% of the predicted price. In short, we have 90% confidence that the error will be less than 40% of the predictive price. </p>
