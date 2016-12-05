@@ -51,7 +51,8 @@ Lastly, we have many features with boolean values which indicate the characteris
 </p>
 
 <p align="center">
-  <h3>Random forest</h3>
+  Random forest
+  font-size: 11px;
 </p>
 
 ## Random forest
