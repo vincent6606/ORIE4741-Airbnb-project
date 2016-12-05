@@ -8,7 +8,6 @@
 </p>
 
 ## Introduction
-<h3>Introduction</h3>
 <p>
 From thousands of listings in different cities, Airbnb has become a massive sink of information. Data provided by homeowners are often big, messy, yet, extremely useful. The goal of this project is to extract knowledge from these datasets by  applying techniques and methodologies common in data mining.</p>
 <p>
