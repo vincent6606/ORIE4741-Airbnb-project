@@ -47,9 +47,7 @@ Lastly, we have many features with boolean values which indicate the characteris
 
 <p align="center">
 <img src="Pictures/1.png" width="300">
-<h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
 <img src="Pictures/2.png" width="300">
-<h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
 </p>
 
 
