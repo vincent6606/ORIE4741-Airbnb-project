@@ -93,3 +93,12 @@ We are separating data points based on their error between the predicted prices 
 <p>We then build a classification model using logistic regression, in order to classify a listings as valid data or outliers. Using this classification model, we will only apply the linear models to the listings which are classified as valid data.</p>
 
 
+## Linear Regression on the Valid Data
+<p>
+Then we redo the linear regression on the valid data, which means our final model only focusing on normal listing.Through the same process as linear regression followed by a k-fold cross validation, we got the coefficient of each feature and set the best lambda. The two figures below show that this second linear regression model results in good prediction on the training set. </p>
+
+
+<p align="center">
+<img src="Pictures/5.png" width="430">
+<img src="Pictures/6.png" width="430">
+</p>
