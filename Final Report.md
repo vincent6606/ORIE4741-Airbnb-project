@@ -75,6 +75,7 @@ After getting the result of the random forest, we reduced the dimension of featu
 <p>
 Using quadratic loss function with one norm regularizer, our linear model can learn the weight of different features, under less influence of outliers. Scikit-learn provides this function for us. To get the best fitting lambda, we ran k-fold cross validation with k=5. </p>   
 
+
 ## Outlier Classification
 
 <p>
