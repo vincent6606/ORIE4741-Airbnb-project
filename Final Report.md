@@ -26,16 +26,16 @@ As more homeowners put their properties on the platform, Airbnb is able to sugge
 The Airbnb listing data we collected contains listing data from New York City from InsideAirbnb. The data file has around 38,000 listings scraped on July 3rd, 2016, and contains 100 features. Among these features are listing price, room type, amenities, and location etc. Other features include host information, room layout, amenities provided, policy, listing prices and review scores. Many of the features are non-numeric, namely, they are booleans, categorical and texts. While most features can be converted into numeric values, others will be left as booleans, categoricals, and texts and treated with appropriate regression tools. Our data set ends up having 96 features remaining.
 </p>
 
-Amenities
+**Amenities
 <p>
 The listings contain around 100 features, including numerical, and non-numerical features. For example, the amenities of a listing, i.e. TV, and WIFI, are contained in a array. Since many of the amenities are common to many properties, we began the feature transformation with the one-hot encoding method. Using this technique, we first summarized all amenities into a set of 35 unique amenities across all listings. We then expand each listing by 35 features, each representing a unique amenity initialized to zero or false. Next, we integrate through each listing and check its array of amenities. In the 35 additional columns, we set the corresponding feature to 1 or true if the same feature is found in the array. We repeat this sequence through all 28,000 plus listings, setting each entry to one to indicate an amenity. As a result, all amenities in our set are encoded by the addition of 35 new columns. We now delete the original column of arrays, leaving the one-hot encoded columns to indicate the presence of an amenity within a listing.
 
-Bed types
+**Bed types
 <p>
 There are only 5 bed types for each listing, including Airbed, Couch, Futon, Pull-out sofa, and Real Bed. We are applying the same encoding method here, where each bed type is indicated by 1. As a result, we added five new columns of one-hot encoded features.
 </p>
 
-Booleans
+**Booleans
 <p>
 Lastly, we have many features with boolean values which indicate the characteristics of the listing and the host. For example, through these values we know whether this host is a superhost, and whether this is a instant-bookable or 24-hour check-in listing.
 </p>
