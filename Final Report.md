@@ -147,5 +147,4 @@ We compare the mean and variance of the error under different filtering rules. W
 
 <p align="center">
 <img src="Pictures/14.png" width="410">
-<img src="Pictures/15.png" width="410">
 </p>
