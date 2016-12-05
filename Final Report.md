@@ -107,7 +107,7 @@ We are separating data points based on their error between the predicted prices 
 
 </p>
 <p align="center">
-<img src="Pictures/7.png" width="430">
+<img src="Pictures/7.png" width="530">
 </p>
 
 
@@ -116,8 +116,12 @@ We are separating data points based on their error between the predicted prices 
 
 
 
-
-
+<p>
+Based on the results we got from the linear regression model, features such as room type, number of bathrooms, availability and number of guests included have a positive impact on the listing price, which means meeting tourists requirements in these fields helps a lot if hosts want to earn more. Other features such as fee for extra people and setting minimum number of nights will lower the probability of setting a welcomed high price.
+Then apply this model onto test set. To see the prediction on the test set, we first classify the test set and get the result of 4392 valid data out of 5241 data points, which means that near 90% data in the test set is regarded as valid. Even though we  the classification process filters out the outlier and thus narrowed down our project scope, we were still predicting listing price for majority hosts. 
+Then, we only apply the linear model on those 4392 valid data points. As the result shown in the two figures below, we still cannot predict the test set well. Then we face a problem of overfitting.
+</p>
+$$I = \int \rho R^{2} dV$$
 
 
 
