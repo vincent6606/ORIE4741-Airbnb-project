@@ -1,6 +1,6 @@
 
 <p align="center">
-  <b><title><h1>ORIE4741 Airbnb project</h1></title></b>
+  <b><title>ORIE4741 Airbnb project</title></b>
 </p>
 
 <p align="center">
