@@ -42,8 +42,19 @@ Lastly, we have many features with boolean values which indicate the characteris
 
 
 ## Linear Regression
-	<p>To begin, we build a linear model by applying ordinary least square regression on the listing data set X to predict the listing price y. Unfortunately, the linear models do not perform well. Figure 1 shows that the model underpredict the price when the true price is high. We can see the error distribution is skewed to positive direction in figure 2, which means that we have more predictions with positive error than with negative error. 
+<p>To begin, we build a linear model by applying ordinary least square regression on the listing data set X to predict the listing price y. Unfortunately, the linear models do not perform well. Figure 1 shows that the model underpredict the price when the true price is high. We can see the error distribution is skewed to positive direction in figure 2, which means that we have more predictions with positive error than with negative error. 
 </p>
+
+<p align="center">
+<img src="Pictures/1.png" width="300">
+<h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
+</p>
+
+<p align="center">
+<img src="Pictures/2.png" width="300">
+<h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
+</p>
+
 
 ## Random forest
 <p>
