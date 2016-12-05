@@ -50,6 +50,9 @@ Lastly, we have many features with boolean values which indicate the characteris
 <img src="Pictures/2.png" width="430">
 </p>
 
+<p align="center">
+  Random forest
+</p>
 
 ## Random forest
 <p>
