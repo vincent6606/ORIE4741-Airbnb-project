@@ -96,10 +96,6 @@ We are separating data points based on their error between the predicted prices 
 </p>
 <p align="center">
 <img src="Pictures/5.png" width="430">
-</p>
-
-</p>
-<p align="center">
 <img src="Pictures/6.png" width="430">
 </p>
 
