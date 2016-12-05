@@ -39,3 +39,18 @@ There are only 5 bed types for each listing, including Airbed, Couch, Futon, Pul
 <p>
 Lastly, we have many features with boolean values which indicate the characteristics of the listing and the host. For example, through these values we know whether this host is a superhost, and whether this is a instant-bookable or 24-hour check-in listing.
 </p>
+
+
+## Linear Regression
+	<p>To begin, we build a linear model by applying ordinary least square regression on the listing data set X to predict the listing price y. Unfortunately, the linear models do not perform well. Figure 1 shows that the model underpredict the price when the true price is high. We can see the error distribution is skewed to positive direction in figure 2, which means that we have more predictions with positive error than with negative error. 
+</p>
+
+## Random forest
+<p>
+There are 92 features in our Airbnb data, we want to get an intuitive sense of what are the most important features that contribute to the pricing difference among those houses. Random forest is a very essential tool to help us look into these feature importance. 
+</p>
+
+<p align="center">
+<img src="Pictures/3.png" width="300">
+<h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
+</p>
