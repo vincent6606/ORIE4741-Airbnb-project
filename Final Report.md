@@ -76,8 +76,10 @@ After getting the result of the random forest, we reduced the dimension of featu
 Using quadratic loss function with one norm regularizer, our linear model can learn the weight of different features, under less influence of outliers. Scikit-learn provides this function for us. To get the best fitting lambda, we ran k-fold cross validation with k=5. </p>   
 
 ## Outlier Classification
+
 <p>
 To overcome the underfitting problem mentioned above, we decided to build a classifier to indicate whether our model will predict the price well or not. Our model tends to underpredict the listings with higher prices, and overpredict the listings with lower prices. It is hard to predict those listings because they might have some unique characteristics which we do not extract from our dataset, such as text description or image.  Therefore, we want to ignore those listings with large negative or positive error,  and we regard them  as outliers. </p>
+
 <p>
 We are separating data points based on their error between the predicted prices and the actual. The graph below shows a histogram of errors divided into two parts; points inside the region bounded by the two lines are within 30 dollars of the actual price and are clustered into the “+1” category. Listings outside the region are labeled “-1”, since their errors are more than 30 dollars.
 </p>
