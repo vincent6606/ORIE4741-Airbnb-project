@@ -50,10 +50,6 @@ Lastly, we have many features with boolean values which indicate the characteris
 <img src="Pictures/2.png" width="430">
 </p>
 
-<p style='font-size:300%' align="center">
-  Random forest
-</p>
-
 ## Random forest
 <p>
 There are 92 features in our Airbnb data, we want to get an intuitive sense of what the most important features are, in contributing to the pricing difference among houses. Random forest is a very essential tool to help us look into the importance of these features. 
