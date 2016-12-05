@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-<img src="Pictures/air.png" width="1200">
+<img src="Pictures/air.png" width="1000">
 <h3>A data mining project studying Airbnb's data at Cornell University, with Dr. Madeleine Udell</h3>
 </p>
 
